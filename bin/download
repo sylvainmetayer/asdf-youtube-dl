@@ -7,3 +7,4 @@ set -e
 
 DOWNLOAD_URL="https://github.com/ytdl-org/youtube-dl/releases/download/${ASDF_INSTALL_VERSION}/youtube-dl"
 curl -s -fL -o "${ASDF_DOWNLOAD_PATH}/youtube-dl" "${DOWNLOAD_URL}"
+
